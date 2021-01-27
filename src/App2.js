@@ -1,4 +1,5 @@
 import React, { Component, useState, useEffect } from 'react';
+import LoginControl from './components/LoginControl';
 
 function App2() {
   return (
@@ -82,6 +83,7 @@ class ClassComp extends Component {
             });
           }}
         ></input>
+        <LoginControl></LoginControl>
       </div>
     );
   }

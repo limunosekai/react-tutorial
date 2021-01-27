@@ -1,5 +1,9 @@
 import React, { Component, useState, useEffect } from 'react';
 import LoginControl from './components/LoginControl';
+import AttendanceBook from './components/AttendanceBook';
+import SignUp from './components/SignUp';
+import Calculator from './components/Calculator';
+import UserProfileList from './components/UserProfileList';
 
 function App2() {
   return (
@@ -84,6 +88,10 @@ class ClassComp extends Component {
           }}
         ></input>
         <LoginControl></LoginControl>
+        <AttendanceBook></AttendanceBook>
+        <SignUp></SignUp>
+        <Calculator></Calculator>
+        <UserProfileList></UserProfileList>
       </div>
     );
   }
